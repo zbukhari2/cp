@@ -9,6 +9,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
 
+
  
 
     /**
@@ -19,6 +20,7 @@ class User extends Authenticatable
     protected $fillable = [
         1,2
     ];
+    protected $addnewcode = 'some string';
 
     /**
      * The attributes that should be hidden for arrays.
